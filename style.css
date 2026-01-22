@@ -1,21 +1,62 @@
+/* ===== RESET ===== */
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #fff6fa;
+  color: #4a2b3c;
+}
+
+/* ===== CONTENEDOR ===== */
+.malla {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px;
+}
+
+/* ===== SECCIONES ===== */
+.nivel {
+  margin-bottom: 50px;
+}
+
+.nivel h2 {
+  margin-bottom: 18px;
+  color: #c05c85;
+  font-weight: 600;
+}
+
+/* ===== GRID ===== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+/* ===== RAMOS ===== */
 .ramo {
-  background: #fde2eb; /* rosado clarito */
-  padding: 18px 14px;
+  background: #fde4ef;
   border-radius: 16px;
-  font-weight: 500;
+  padding: 18px;
   text-align: center;
-  cursor: pointer;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.06);
-  transition: all 0.25s ease;
   font-size: 14px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow: 0 6px 18px rgba(192, 92, 133, 0.15);
 }
 
+/* hover */
 .ramo:hover {
-  transform: translateY(-3px);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 22px rgba(192, 92, 133, 0.25);
 }
 
-.aprobado {
-  background: #f2a6c1; /* rosado más fuerte */
+/* aprobado */
+.ramo.aprobado {
+  background: #e97aa6;
   color: white;
-  box-shadow: 0 10px 22px rgba(242,166,193,0.6);
+  text-decoration: line-through;
+  box-shadow: 0 8px 20px rgba(233, 122, 166, 0.5);
 }

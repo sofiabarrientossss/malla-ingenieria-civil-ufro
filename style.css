@@ -1,56 +1,14 @@
-body {
-  font-family: Arial, sans-serif;
-  background: #f6f4f7;
-  padding: 20px;
-}
-
-header {
-  background: white;
-  padding: 20px;
-  border-radius: 16px;
-  margin-bottom: 20px;
-}
-
-.progress-bar {
-  background: #eee;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.progress {
-  background: #f2a6c1;
-  color: white;
-  text-align: center;
-  padding: 4px;
-}
-
-.semestre {
-  margin-bottom: 30px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 12px;
-}
-
 .ramo {
   padding: 14px;
   border-radius: 14px;
-  background: white;
+  background: #fde2eb; /* rosado claro */
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);
   font-weight: 500;
   cursor: pointer;
+  transition: all 0.2s ease;
 }
 
 .aprobado {
-  background: #f8c6d8;
-}
-
-.cursando {
-  background: #fff1c1;
-}
-
-.pendiente {
-  background: #eaeaea;
+  background: #f2a6c1; /* rosado más oscuro */
+  color: white;
 }

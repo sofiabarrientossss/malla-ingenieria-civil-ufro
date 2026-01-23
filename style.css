@@ -142,22 +142,11 @@ html, body {
   height: auto;
 }
 h2 {
-  display: inline-block;
-  background-color: #f8f3f5; /* blanco gris rosado suuave */
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+
+  background-color: #f7f2f4; /* blanco gris rosado suave */
   padding: 8px 14px;
   border-radius: 10px;
-}
-h2 {
-  position: relative;
-  display: inline-block;
-  z-index: 1;
-}
-
-h2::before {
-  content: "";
-  position: absolute;
-  inset: -6px -14px;            /* tamaño del recuadro */
-  background-color: #f7f2f4;    /* blanco gris rosado suave */
-  border-radius: 10px;
-  z-index: -1;
 }

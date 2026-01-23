@@ -74,11 +74,10 @@ h2, h3 {
 
 /* ===== TÍTULO SEMESTRE ===== */
 .nivel h2 {
-  text-align: center;
-  font-size: 16px;
-  margin-bottom: 22px;
-  color: #c05c85;
-  font-weight: 600;
+  display: inline-block;
+  background: #f6f2f4;
+  padding: 10px 36px; /* MÁS largo horizontal */
+  border-radius: 10px; /* menos globo, más tarjeta */
 }
 
 /* ===== RAMOS EN VERTICAL ===== */

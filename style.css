@@ -59,8 +59,8 @@ body {
 
 /* ===== TARJETAS ===== */
 .ramo {
-  background: #fff0f6;              /* rosado muy claro */
-border: 1.5px solid #e7a2bf;      /* borde rosado delicado */
+background: #fff5f8;          /* rosado pastel claro */
+border: 1.5px solid #f0b7cc;  /* borde rosado suave */
 padding: 14px 40px;   /* MÁS anchas, menos altas */
 min-height: 80px;    /* baja la altura */
 border-radius: 3px;  /* más rectas */
@@ -115,7 +115,7 @@ border-radius: 3px;  /* más rectas */
 
 /* aprobado */
 .ramo.aprobado {
-  background: linear-gradient(135deg, #f08bb4, #e46a9f);
+ background: linear-gradient(135deg, #f7a8c6, #f18bb3);
   color: white;
   box-shadow: 0 10px 26px rgba(228, 106, 159, 0.45);
 }
@@ -124,5 +124,5 @@ border-radius: 3px;  /* más rectas */
   opacity: 1;
   transform: scale(1);
   background: white;
-  color: #e46a9f;
+  color: #f18bb3;
 }

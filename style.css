@@ -150,10 +150,6 @@ h2 {
   padding: 8px 14px;
   border-radius: 10px;
 }
-h2 {
-  background: red !important;
-  color: white !important;
-}
 .nivel > h2 {
   display: inline-block;
   background-color: #f7f3f5; /* blanco gris rosado MUY suave */

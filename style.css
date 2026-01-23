@@ -132,3 +132,8 @@ body {
   border: 1.3px solid #e8a7a0;   /* borde rosado salmón */
   color: #4a2b3c;                 /* opcional: cambia color del texto si quieres */
 }
+@media (max-width: 600px) {
+  .ramo {
+    font-size: 13px;
+    padding: 12px 20px;
+  }

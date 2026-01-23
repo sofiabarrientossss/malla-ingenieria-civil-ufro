@@ -154,3 +154,10 @@ h2 {
   background: red !important;
   color: white !important;
 }
+.nivel > h2 {
+  display: inline-block;
+  background-color: #f7f3f5; /* blanco gris rosado MUY suave */
+  padding: 10px 18px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}

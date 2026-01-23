@@ -40,33 +40,33 @@ body {
 
 /* ===== RAMOS ===== */
 .ramo {
+.ramo {
   background: #fde7f1;
-  border-radius: 24px;
 
-  padding: 26px 20px;      /* más aire */
-  min-height: 115px;       /* MÁS GRANDES */
+  border-radius: 12px;      /* menos “globo”, más rectangular */
+  padding: 22px 18px;       /* más ancho y recto */
+  min-height: 120px;        /* altura más constante */
 
   text-align: center;
-  font-size: 15px;         /* texto más delicado */
+  font-size: 15px;
   font-weight: 500;
   line-height: 1.35;
 
   cursor: pointer;
 
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  position: relative;
-
-  transition: all 0.25s ease;
-  box-shadow: 0 10px 24px rgba(192, 92, 133, 0.14);
+  transition: all 0.2s ease;
+  box-shadow: 0 6px 16px rgba(192, 92, 133, 0.12); /* suave */
 }
 
 /* hover */
 .ramo:hover {
-  transform: translateY(-4px) scale(1.015);
-  box-shadow: 0 14px 30px rgba(192, 92, 133, 0.22);
+  transform: translateY(-3px) scale(1.01);
+  box-shadow: 0 10px 22px rgba(192, 92, 133, 0.2);
 }
 
 /* aprobado */

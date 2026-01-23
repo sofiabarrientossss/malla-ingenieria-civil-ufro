@@ -6,6 +6,7 @@
 
 body {
   margin: 0;
+  padding: 0;
   background: #fff6fa;
   color: #4a2b3c;
 }
@@ -53,12 +54,10 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 24px;
-
-  padding: 20px;
-  max-width: 1400px;
-  margin: 0 auto;
+ padding: 16px;        /* antes era muy grande */
+  max-width: 1200px;    /* reduce el aire lateral */
+  margin: 0 auto;       /* centra sin exceso */
 }
-
 /* ===== AÑOS (fila de semestres) ===== */
 .anio {
   display: flex;
@@ -137,3 +136,6 @@ body {
     font-size: 13px;
     padding: 12px 20px;
   }
+html, body {
+  height: auto;
+}

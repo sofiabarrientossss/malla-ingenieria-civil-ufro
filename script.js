@@ -5,5 +5,3 @@ ramos.forEach(ramo => {
     ramo.classList.toggle("aprobado");
   });
 });
-const texto = document.getElementById("progreso-texto");
-const barra = document.getElementById("progreso-relleno");

@@ -153,3 +153,30 @@ body {
   color: #c05c85;
   letter-spacing: 1px;
 }
+/* ===== RESTAURAR COLUMNAS POR SEMESTRE ===== */
+
+.anio {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 60px;
+}
+
+/* cada semestre = una columna invisible */
+.nivel {
+  flex: 1;
+}
+
+/* título del semestre */
+.nivel h2 {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #c05c85;
+}
+
+/* ramos uno debajo del otro */
+.grid {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}

@@ -157,3 +157,6 @@ h2 {
   border-radius: 12px;
   margin-bottom: 20px;
 }
+.nivel h2 {
+  background: #ccc !important;
+}

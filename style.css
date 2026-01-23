@@ -141,15 +141,6 @@ h2, h3 {
 html, body {
   height: auto;
 }
-h2 {
-  display: inline-flex;
-  align-items: center;
-  width: fit-content;
-
-  background-color: #f7f2f4; /* blanco gris rosado suave */
-  padding: 8px 14px;
-  border-radius: 10px;
-}
 .nivel > h2 {
   display: inline-block;
   background-color: #f7f3f5; /* blanco gris rosado MUY suave */
@@ -157,6 +148,9 @@ h2 {
   border-radius: 12px;
   margin-bottom: 20px;
 }
-.nivel h2 {
-  background: #ccc !important;
+.titulo-semestre {
+  display: inline-block;
+  background: #ccc;
+  padding: 10px 18px;
+  border-radius: 12px;
 }

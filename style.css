@@ -59,26 +59,16 @@ body {
 
 /* ===== TARJETAS ===== */
 .ramo {
-background: #fff9fb;          /* casi blanco rosado */
-border: 1.5px solid #f3c6d6;  /* borde rosado muy suave */
-padding: 14px 40px;   /* MÁS anchas, menos altas */
-min-height: 80px;    /* baja la altura */
-border-radius: 3px;  /* más rectas */
-
-  text-align: center;
+  background: #ffffff;        /* blanco puro */
+  border: none;               /* sin borde */
+  padding: 14px 40px;
+  min-height: 80px;
+  border-radius: 3px;
   font-size: 13.5px;
-  font-weight: 500;
-  line-height: 1.4;
-
+  color: #444;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.04);
   cursor: pointer;
-
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  transition: all 0.2s ease;
-  box-shadow: 0 6px 18px rgba(192, 92, 133, 0.12);
+  transition: all 0.25s ease;
 }
 
 /* hover */
@@ -115,14 +105,13 @@ border-radius: 3px;  /* más rectas */
 
 /* aprobado */
 .ramo.aprobado {
-background: linear-gradient(135deg, #f6bfd4, #f3a9c4);
-  color: white;
-  box-shadow: 0 10px 26px rgba(228, 106, 159, 0.45);
+  background: #fff7f9;                 /* blanco con 2 gotitas rosadas */
+  border: 1.3px solid #e8a7a0;          /* rosado salmón pastel */
 }
 
 .ramo.aprobado::after {
   opacity: 1;
   transform: scale(1);
   background: white;
-color: #e7a2bf;
+  color: #e8a7a0;   /* mismo tono del borde */
 }

@@ -69,7 +69,6 @@ body {
 .ramo.aprobado {
   background: linear-gradient(135deg, #f08bb4, #e46a9f);
   color: white;
-  text-decoration: line-through;
   box-shadow: 0 12px 26px rgba(228, 106, 159, 0.45);
 }
 /* ===== CHECK EN ESQUINA ===== */

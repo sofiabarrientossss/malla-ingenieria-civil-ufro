@@ -173,3 +173,16 @@ section .ramo {
   padding: 14px 16px !important;
   border-radius: 14px !important;
 }
+.grid {
+  display: grid !important;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-top: 12px;
+}
+.grid .ramo {
+  background: #ffffff !important;
+  padding: 14px 16px !important;
+  border-radius: 14px !important;
+  text-align: center;
+  font-size: 14px;
+}

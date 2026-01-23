@@ -168,18 +168,8 @@ html, body {
   cursor: pointer;
   transition: all 0.25s ease;
 }
-.grid .ramo {
+section .ramo {
   background: #ffffff !important;
   padding: 14px 16px !important;
   border-radius: 14px !important;
-
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-
-  font-size: 14px !important;
-  text-align: center;
-
-  cursor: pointer;
-  transition: all 0.25s ease;
 }

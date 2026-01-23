@@ -59,8 +59,9 @@ body {
 
 /* ===== TARJETAS ===== */
 .ramo {
-  background: #fde7f1;
-border-radius: 5px;        /* casi recto */
+  background: #fff0f6;              /* rosado muy claro */
+border: 1.5px solid #e7a2bf;      /* borde rosado delicado */
+border-radius: 5px;
 padding: 22px 28px;       /* MÁS ancho, menos alto */
 min-height: 110px;        /* menos alto = más rectangular */
 

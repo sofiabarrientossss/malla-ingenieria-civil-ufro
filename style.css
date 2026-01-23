@@ -150,3 +150,7 @@ h2 {
   padding: 8px 14px;
   border-radius: 10px;
 }
+h2 {
+  background: red !important;
+  color: white !important;
+}

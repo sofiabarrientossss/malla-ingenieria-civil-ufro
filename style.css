@@ -141,7 +141,7 @@ h2, h3 {
 html, body {
   height: auto;
 }
-.titulo-anio {
+h2 {
   display: inline-block;
   background-color: #f8f3f5; /* blanco gris rosado suuave */
   padding: 8px 14px;

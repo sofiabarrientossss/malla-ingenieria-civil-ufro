@@ -1,23 +1,17 @@
 /* ===== RESET ===== */
 * {
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
 }
 
-body {
+html, body {
   margin: 0;
   padding: 0;
-  background: #fff6fa;
-  color: #4a2b3c;
 }
 
 /* ===== BARRA DE PROGRESO ===== */
 .progreso-container {
-  max-width: 600px;
-  margin: 25px auto 40px;
-  text-align: center;
-  font-size: 14px;
-  color: #c57a8f;
+header {
+  padding: 24px 16px 12px;
 }
 
 .progreso-barra {

@@ -60,10 +60,9 @@ body {
 /* ===== TARJETAS ===== */
 .ramo {
   background: #fde7f1;
-  border-radius: 10px;      /* MÁS rectangular */
-
-  padding: 30px 20px;       /* más aire horizontal */
-  min-height: 135px;        /* MÁS grande */
+ border-radius: 6px;     /* casi rectangular */
+padding: 32px 22px;    /* más ancho */
+min-height: 145px;     /* más alto */
 
   text-align: center;
   font-size: 15.5px;

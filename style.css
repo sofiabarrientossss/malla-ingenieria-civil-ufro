@@ -60,15 +60,15 @@ body {
 /* ===== TARJETAS ===== */
 .ramo {
   background: #fde7f1;
-  border-radius: 14px;
+  border-radius: 10px;      /* MÁS rectangular */
 
-  padding: 26px 18px;
-  min-height: 120px;
+  padding: 30px 20px;       /* más aire horizontal */
+  min-height: 135px;        /* MÁS grande */
 
   text-align: center;
-  font-size: 15px;
+  font-size: 15.5px;
   font-weight: 500;
-  line-height: 1.35;
+  line-height: 1.4;
 
   cursor: pointer;
 
@@ -78,7 +78,7 @@ body {
   justify-content: center;
 
   transition: all 0.2s ease;
-  box-shadow: 0 6px 18px rgba(192, 92, 133, 0.14);
+  box-shadow: 0 6px 18px rgba(192, 92, 133, 0.12);
 }
 
 /* hover */

@@ -1,4 +1,9 @@
 /* ===== RESET ===== */
+body {
+  font-family: 'Poppins', sans-serif; /* o la que estabas usando */
+  color: #c86b8a; /* rosado pastel del texto */
+  background-color: #fff6f8;
+}
 * {
   box-sizing: border-box;
 }
@@ -39,10 +44,13 @@ header {
 
 .titulo-principal h1 {
   font-size: 42px;
-  font-weight: 700;
-  color: #c05c85;
+  font-weight: 600;
+  color: #c45a7a;
 }
-
+h2, h3 {
+  color: #cc6f8e;
+  font-weight: 500;
+}
 /* ===== CONTENEDOR ===== */
 .malla {
   display: grid;

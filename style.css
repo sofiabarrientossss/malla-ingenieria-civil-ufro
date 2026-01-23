@@ -84,7 +84,10 @@ body {
   border-radius: 50%;
   padding: 2px 5px;
   transition: opacity 0.2s ease;
+
+  pointer-events: none;  /* esta línea evita bloquear el click */
 }
+
 .ramo.aprobado::after {
   opacity: 1;
 }

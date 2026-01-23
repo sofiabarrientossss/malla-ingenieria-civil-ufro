@@ -94,4 +94,6 @@ body {
 .ramo.aprobado::after {
   opacity: 1;
   transform: scale(1); /* aparece y se queda */
+  background: #fff4f7;           /* blanco-rosado suave */
+  border: 1.3px solid #e8a7a0;   /* borde rosado salmón pastel */
 }

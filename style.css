@@ -105,13 +105,21 @@ body {
 
 /* aprobado */
 .ramo.aprobado {
-  background: #fff7f9;                 /* blanco con 2 gotitas rosadas */
+ background: #fff4f7;         
   border: 1.3px solid #e8a7a0;          /* rosado salmón pastel */
 }
 
 .ramo.aprobado::after {
-  opacity: 1;
-  transform: scale(1);
+  content: "✓";
+  position: absolute;
+  top: 6px;
+  right: 8px;
+  font-size: 14px;
+  opacity: 0;
   background: white;
-  color: #e8a7a0;   /* mismo tono del borde */
+  color: #e8a7a0;
+  border-radius: 50%;
+  padding: 2px 5px;
+  transition: opacity 0.2s ease;
 }
+

@@ -117,11 +117,10 @@ body {
 }
 
 /* cada semestre (columna) */
-.nivel {
+ .nivel {
   flex: 1;
-  background: #fff0f6;
-  padding: 18px;
-  border-radius: 24px;
+  padding: 0;
+  background: transparent;
 }
 
 /* título semestre */

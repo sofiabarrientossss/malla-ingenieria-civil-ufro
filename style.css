@@ -61,9 +61,9 @@ body {
 .ramo {
   background: #fff0f6;              /* rosado muy claro */
 border: 1.5px solid #e7a2bf;      /* borde rosado delicado */
-padding: 18px 34px;     /* más ancho, menos alto */
-min-height: 95px;      /* menos altura */
-border-radius: 4px;    /* aún más rectangular */
+padding: 14px 40px;   /* MÁS anchas, menos altas */
+min-height: 80px;    /* baja la altura */
+border-radius: 3px;  /* más rectas */
 
   text-align: center;
   font-size: 13.5px;

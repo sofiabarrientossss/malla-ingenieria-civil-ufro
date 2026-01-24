@@ -122,7 +122,3 @@ header {
     padding: 12px 20px;
   }
 }
-.nivel {
-  max-width: 320px;   /* controla qué tan ancha es la columna */
-  margin: 0 auto;     /* la centra dentro del grid */
-}

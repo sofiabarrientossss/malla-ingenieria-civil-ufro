@@ -149,3 +149,42 @@ header {
 .anio-header::after {
   right: 0;
 }
+.anio-container {
+  display: flex;
+  flex-direction: column; /* título arriba, semestres abajo */
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.anio-header {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.anio-header::before,
+.anio-header::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 35%;
+  height: 1px;
+  background: #bbb;
+}
+
+.anio-header::before { left: 0; }
+.anio-header::after { right: 0; }
+
+/* mantener los semestres uno al lado del otro */
+.anio-container .nivel-container {
+  display: flex;
+  gap: 24px;
+}
+
+/* opcional: que los grids internos no se rompan */
+.nivel {
+  flex: 1; /* cada semestre ocupa la mitad del ancho del año */
+}

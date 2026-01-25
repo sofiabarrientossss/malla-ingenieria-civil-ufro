@@ -45,11 +45,11 @@ header {
 /* ===== MALLA ===== */
 .malla {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-auto-flow: column;     /* 🔥 CLAVE */
+  grid-auto-columns: 300px;   /* ancho de cada columna */
   gap: 32px;
   padding: 16px;
-  max-width: 1400px;
-  margin: 0 auto;
+  overflow-x: auto;           /* scroll horizontal suave */
 }
 
 /* ===== SEMESTRE ===== */

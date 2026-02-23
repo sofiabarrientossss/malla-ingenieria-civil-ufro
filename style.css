@@ -175,3 +175,13 @@ header {
 .anio-header {
   grid-column: 1 / -1; /* ocupa todo el ancho */
 }
+.anio-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.anio-header {
+  grid-column: 1 / -1;
+}

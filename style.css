@@ -166,3 +166,12 @@ header {
   display: flex;
   gap: 32px;
 }
+.anio-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.anio-header {
+  grid-column: 1 / -1; /* ocupa todo el ancho */
+}

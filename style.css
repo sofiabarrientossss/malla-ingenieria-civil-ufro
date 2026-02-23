@@ -154,3 +154,15 @@ header {
 .nivel {
   flex: 1; /* cada semestre ocupa la mitad del ancho del año */
 }
+/* cada año es una columna horizontal */
+.anio-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 620px; /* ancho del bloque año */
+}
+
+/* semestres dentro del año uno al lado del otro */
+.semestres {
+  display: flex;
+  gap: 32px;
+}

@@ -121,39 +121,6 @@ header {
     font-size: 13px;
     padding: 12px 20px;
   }
-}
-.anio-header {
-  grid-column: span 2;
-  text-align: center;
-  font-weight: 700;
-  font-size: 1.1rem;
-  color: #555;
-  position: relative;
-}
-
-.anio-header::before,
-.anio-header::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  width: 35%;
-  height: 1px;
-  background: #bbb;
-}
-
-.anio-header::before {
-  left: 0;
-}
-
-.anio-header::after {
-  right: 0;
-}
-.anio-container {
-  display: flex;
-  flex-direction: column; /* título arriba, semestres abajo */
-  gap: 16px;
-  margin-bottom: 40px;
-}
 
 .anio-header {
   text-align: center;
